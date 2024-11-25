@@ -1,0 +1,267 @@
+/*general rules*/
+* {
+    border: 0px;
+    margin: 0px;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+
+/*header*/
+header {
+    /* DEBUG */
+    /* height: 80px;
+    background-color: lightblue; */
+    
+    background-image: url(img/jumbo.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*header containers*/
+.header-containers {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+.logo {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    padding-left: 10px;
+    /* DEBUG */
+    /* text-align: left;
+    border: solid black 1px;
+    background-color: orange; */
+}
+
+
+/*links*/
+.navigation-links {
+    width: 80%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    /* DEBUG */
+    /* border: solid black 1px;
+    background-color: orange; */
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+
+/*login*/
+.login {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 10px;
+    /* DEBUG */
+    /* text-decoration: none;
+    border: solid black 1px;
+    background-color: orange; */
+}
+
+.jumbo {
+    background-size: 100%;
+    background-image: url(img/jumbo.png);
+    width: 100%;
+    height: 470px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    /* background-color: darkblue; */
+}
+
+.jumbo-block {
+    /* DEBUG */
+    /* background-color: #EF82ED;  
+    border: dashed black 3px; */
+    
+    width: 50%;
+    height: 100%;
+}
+
+.section1{
+    /* DEBUG */
+    background-color: #fff;
+    height: 300px;
+    
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-block{
+    /* DEBUG */
+    background-color: #1E90FF;  
+    border: dashed black 3px; 
+    
+    width: 50%;
+    height: 100%;
+}
+
+.pink-block{
+    /* DEBUG */
+    border: dashed black 3px;
+    background-color: #FFC0CA;  
+    
+    width: 30%;
+    height: 100%;  
+}
+
+.section2{
+    /* DEBUG */
+    background-color: #D3D3D3;
+    height: 300px;
+    
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3{
+    /* DEBUG */
+    background-color: #fff;
+    height: 300px;
+    
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4{
+    /* DEBUG */
+    background-color: #D3D3D3;
+    height: 500px;
+    
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-block{
+    /* DEBUG */
+    background-color: #218B21;  
+    
+    width: 80%;
+    height: 100%;
+    border: dashed black 3px;
+}
+
+.section5{
+    /* DEBUG */
+    background-color: #23272A;
+    
+    height: 300px;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-column{
+    /* DEBUG */
+    background-color: #F08180;   
+    border: dashed black 3px; 
+    
+    width: 26%;
+    height: 100%;   
+}
+
+.aqua-column{
+    /* DEBUG */
+    background-color: #20B3AA;   
+    border: dashed white 2px;
+    
+    width: 13%;
+    height: 100%;  
+}
+
+hr{
+    color: #fff;
+    height: 1px;
+}
+
+footer{
+    /* DEBUG */
+    background-color: #23272A;
+    
+    height: 35px;
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.footer-nav-space{
+    /* DEBUG */
+    background-color: #7FFFD4;
+    
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    height: 89%;
+    padding: 5px;
+    margin: 0;
+    align-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo-footer{
+    /* DEBUG */
+    border: dashed black 1px;
+    background-color: #FFC0CA;
+    
+    display: flex;
+    font-size: 8px;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    
+}
+
+button{
+    /* DEBUG */
+    border: dashed black 1px;
+    background-color: #FFC0CA;
+    
+    font-size: 8px;
+    padding: 10px;
+    width: 62px;
+    text-align: right;
+    display: block;
+}
+
+
+
+
