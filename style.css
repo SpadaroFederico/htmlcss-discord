@@ -379,20 +379,56 @@ header {
     justify-content: center;
 }
 
-.pink-column{
+.first-column{
     /* DEBUG */
-    background-color: #F08180;   
-    border: dashed black 3px; 
+    /* background-color: #F08180;   
+    border: dashed black 3px;  */
     
     width: 26%;
     height: 100%;   
 }
 
-.aqua-column{
-    /* DEBUG */
+h5{
+    color: #768DD1;
+    font-size: 25px;
+}
+
+.flag{
+    margin-top: 20px;
+    width: 25px;
+    display: flex;
+}
+
+.flag-p{
+    display: flex;
+    position: relative;
+    bottom: 17px;
+    left: 35px;
+    color: #fff;
+}
+
+.icons{
+    color: #fff;
+    font-size: 20px;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.title-column{
+    color: #768DD1;
+}
+
+.column{
+    /* DEBUG
     background-color: #20B3AA;   
-    border: dashed white 2px;
+    border: dashed white 2px; */
     
+    font-size: 10px;
+    line-height: 25px;
+    color: #fff;
     width: 13%;
     height: 100%;  
 }
@@ -417,7 +453,7 @@ footer{
 
 .footer-nav-space{
     /* DEBUG */
-    background-color: #7FFFD4;
+    /* background-color: #7FFFD4; */
     
     justify-content: space-between;
     display: flex;
@@ -432,28 +468,22 @@ footer{
 
 .logo-footer{
     /* DEBUG */
-    border: dashed black 1px;
-    background-color: #FFC0CA;
-    
+    /* border: dashed black 1px;
+    background-color: #FFC0CA; */
+      /* padding: 10px; */
     display: flex;
-    font-size: 8px;
-    padding: 10px;
+    font-size: 20px;
     width: 40px;
     text-align: center;
     
 }
-/* button{
-    /* DEBUG */
-    /* border: dashed black 1px;
-    background-color: #FFC0CA;
-    
-    font-size: 8px;
-    padding: 10px;
-    width: 62px;
-    text-align: right;
-    display: block;
-} */ 
 
+.registrati{
+color: #fff;
+background-color: #768DD1;
+padding: 10px;
+border-radius: 20px;
+}
 
 
 
