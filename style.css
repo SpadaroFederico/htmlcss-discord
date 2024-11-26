@@ -353,6 +353,19 @@ header {
     margin-left: 8%;
 }
 
+.download-mac2{
+    color: #fff;
+    margin-left: 6%;
+    background-color: #8EA1E2;
+    position: absolute;
+    margin-top: 55%;
+    padding: 15px;
+    width: 15%;
+    border-radius: 25px;
+    height: 60px;
+    font-size: 16px;
+}
+
 .section5{
     /* DEBUG */
     background-color: #23272A;
